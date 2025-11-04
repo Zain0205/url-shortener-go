@@ -1,0 +1,85 @@
+# =========================================
+# 🐹 Go build & modules
+# =========================================
+/bin/
+/build/
+/dist/
+/out/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Dependency directories (like node_modules in JS)
+vendor/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# =========================================
+# ⚙️ Environment & Config
+# =========================================
+.env
+.env.*
+*.local
+
+# =========================================
+# 🐋 Docker
+# =========================================
+docker-compose.override.yml
+.docker/
+*.pid
+*.log
+*.tmp
+*.bak
+*.swp
+
+# =========================================
+# 🧠 IDE & Editor files
+# =========================================
+# VSCode
+.vscode/
+.history/
+
+# JetBrains (GoLand, IntelliJ)
+.idea/
+
+# Neovim / Vim
+*.swp
+*.swo
+*.swn
+.session
+nvimlog
+nvim-data/
+
+# =========================================
+# 💾 OS-specific junk
+# =========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================================
+# 🧰 Testing / Coverage / CI
+# =========================================
+coverage.out
+coverage.txt
+*.coverprofile
+*.lcov
+test-results/
+.junit/
+.tmp/
+.cache/
+
+# =========================================
+# 🧱 Docker + Build cache
+# =========================================
+*.tar
+.dockerignore
+Dockerfile.dev
+Dockerfile.local
+
